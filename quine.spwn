@@ -1,0 +1,1 @@
+d='JC5wcmludCgnZD0nKyInIitkKyInIisnOycrJC5iNjRkZWNvZGUoZCkp';$.print('d='+"'"+d+"'"+';'+$.b64decode(d))
