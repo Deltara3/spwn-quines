@@ -1,5 +1,5 @@
 # spwn-quine
-quine in spwn epic moment also 69th repo
+first quine in spwn epic moment also 69th repo
 
 code without clicking `quine.spwn` for lazy people lol
 ```rust
