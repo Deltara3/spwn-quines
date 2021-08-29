@@ -5,4 +5,4 @@ code without clicking `quine.spwn` for lazy people (like me) lol
 ```rust
 d='JC5wcmludCgiZD0nIitkKyInOyIrJC5iNjRkZWNvZGUoZCkp';$.print("d='"+d+"';"+$.b64decode(d))
 ```
-![epic output](output.png)
+![epic output](better.png)
