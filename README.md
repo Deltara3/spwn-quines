@@ -34,7 +34,7 @@ c=()=>'{};$.print("c=()=>"+c().fmt($.display(c())))';$.print("c=()=>"+c().fmt($.
 y=[(n)=>$.print(n,$.display(n),")")];y[0]('y=[(n)=>$.print(n,$.display(n),")")];y[0](')
 ```
 
-By [typicaldev1](https://github.com/typicaldev1)
+By [typicaldev1](https://github.com/typicaldev1):
 
 File name: `quine-typicaldev1-gh.spwn`
 ```rust
