@@ -33,3 +33,10 @@ c=()=>'{};$.print("c=()=>"+c().fmt($.display(c())))';$.print("c=()=>"+c().fmt($.
 (k){$.print(k+"("+$.display(k)+")")}('(k){$.print(k+"("+$.display(k)+")")}')
 y=[(n)=>$.print(n,$.display(n),")")];y[0]('y=[(n)=>$.print(n,$.display(n),")")];y[0](')
 ```
+
+By [typicaldev1](https://github.com/typicaldev1):
+
+File name: `quine-typicaldev1-gh.spwn`
+```rust
+(p,x,d){p(x.fmt(d(x)))}($.print,'(p,x,d){p(x.fmt(d(x)))}($.print,{},$.display)',$.display)
+```
