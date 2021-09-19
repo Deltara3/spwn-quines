@@ -21,3 +21,10 @@ File name: `quine-camila314-gh.spwn`
 ```rust
 let a='let a=\'7\';a=a.replace(@string(1+6),a.replace(a[100-4]+a[100-4],a[100-4]+a[100-4]).replace(a[6],"\\\\"+a[6]));$.print(a)';a=a.replace(@string(1+6),a.replace(a[100-4]+a[100-4],a[100-4]+a[100-4]).replace(a[6],"\\"+a[6]));$.print(a)
 ```
+
+By [Specky](https://github.com/SpeckyYT):
+
+File name: `quine-speckyyt-gh.spwn`
+```rust
+s='$.print("s=",$.display(s),";",s)';$.print("s=",$.display(s),";",s)
+```
