@@ -27,7 +27,7 @@ By [Specky](https://github.com/SpeckyYT):
 File name: `quine-speckyyt-gh.spwn`
 ```rust
 s='$.print("s=",$.display(s),";",s)';$.print("s=",$.display(s),";",s)
-p='p={};$.print(p.fmt([$.display(p),{}]))';$.print(p.fmt([$.display(p),{}]))
+p={p: 'p=',pp: ';$.print(p.p,$.display(p).fmt(p),p.pp)'};$.print(p.p,$.display(p).fmt(p),p.pp)
 e=';(e){$.print(e)}("e="+$.display(e)+e)';(e){$.print(e)}("e="+$.display(e)+e)
 c=()=>'{};$.print("c=()=>"+c().fmt($.display(c())))';$.print("c=()=>"+c().fmt($.display(c())))
 (k){$.print(k+"("+$.display(k)+")")}('(k){$.print(k+"("+$.display(k)+")")}')
