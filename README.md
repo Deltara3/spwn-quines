@@ -7,7 +7,7 @@ File name: `quine-deltara3-gh.spwn`
 ```rust
 d='JC5wcmludCgiZD0nIitkKyInOyIrJC5iNjRkZWNvZGUoZCkp';$.print("d='"+d+"';"+$.b64decode(d))
 ```
-By: The Real T-Shirt (in the SPWN Discord server):
+By: sertdfyguhi (in the SPWN Discord server):
 
 File name: `quine-trts-disc.spwn`
 ```rust
