@@ -33,4 +33,5 @@ c=()=>'{};$.print("c=()=>"+c().fmt($.display(c())))';$.print("c=()=>"+c().fmt($.
 (k){$.print(k+"("+$.display(k)+")")}('(k){$.print(k+"("+$.display(k)+")")}')
 y=[(y)=>$.print(y,$.display(y),")")];y[0]('y=[(y)=>$.print(y,$.display(y),")")];y[0](')
 (isCool,isFriendly,isSmart){$.print("("+",".join(isCool)+"){"+isFriendly+isSmart+isCool as@string+"".join([isFriendly,isSmart].map(v=>","+$.display(v)))+")")}(['isCool','isFriendly','isSmart'],'$.print','("("+",".join(isCool)+"){"+isFriendly+isSmart+isCool as@string+"".join([isFriendly,isSmart].map(v=>","+$.display(v)))+")")}(')
+o={k: ';$.print("o=",o,o.k)'};$.print("o=",o,o.k)
 ```
