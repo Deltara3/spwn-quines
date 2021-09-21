@@ -3,9 +3,12 @@ Quines in SPWN!
 
 By [me](https://github.com/Deltara3):
 
-File name: `quine-deltara3-gh.spwn`
+File name: `deltara3/quine-deltara3-gh.spwn`
 ```rust
 d='JC5wcmludCgiZD0nIitkKyInOyIrJC5iNjRkZWNvZGUoZCkp';$.print("d='"+d+"';"+$.b64decode(d))
+```
+```rust
+x=';$.print("x={}{}".fmt([$.display(x), x]))';$.print("x={}{}".fmt([$.display(x), x]))
 ```
 
 By [sertdfyguhi](https://github.com/sertdfyguhi):
