@@ -1,0 +1,1 @@
+x='JC5wcmludCgieD0ne30nO3t9Ii5mbXQoW3gsJC5iNjRkZWNvZGUoeCldKSk';$.print("x='{}';{}".fmt([x,$.b64decode(x)]))
