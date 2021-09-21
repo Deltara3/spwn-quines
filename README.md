@@ -15,7 +15,7 @@ File name: `quine-sertdfyguhi-gh.spwn`
 x='x={};$.print(x.fmt($.display(x)))';$.print(x.fmt($.display(x)))
 ```
 ```rust
-x='JC5wcmludCgieD0ne30nO3t9Ii5mbXQoW3gsJC5iNjRkZWNvZGUoeCldKSk=';$.print("x='{}';{}".fmt([x,$.b64decode(x)]))
+x='JC5wcmludCgieD0ne30nO3t9Ii5mbXQoW3gsJC5iNjRkZWNvZGUoeCldKSk';$.print("x='{}';{}".fmt([x,$.b64decode(x)]))
 ```
 
 By [camila314](https://github.com/camila314):
