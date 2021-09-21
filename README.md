@@ -46,7 +46,7 @@ File name: `quine-speckyyt-gh.spwn`
 ```rust
 s='$.print("s=",$.display(s),";",s)';$.print("s=",$.display(s),";",s)
 p={p: 'p=',pp: ';$.print(p.p,$.display(p).fmt(p),p.pp)'};$.print(p.p,$.display(p).fmt(p),p.pp)
-(e)}("e="+$.display(e)+e)';(e){$.print(e)}("e="+$.display(e)+e)
+e=';(e){$.print(e)}("e="+$.display(e)+e)';(e){$.print(e)}("e="+$.display(e)+e)
 c=()=>'{};$.print("c=()=>"+c().fmt($.display(c())))';$.print("c=()=>"+c().fmt($.display(c())))
 (k){$.print(k+"("+$.display(k)+")")}('(k){$.print(k+"("+$.display(k)+")")}')
 y=[(y)=>$.print(y,$.display(y),")")];y[0]('y=[(y)=>$.print(y,$.display(y),")")];y[0](')
