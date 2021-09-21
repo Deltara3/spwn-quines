@@ -7,9 +7,13 @@ File name: `deltara3/quine-deltara3-gh-1.spwn`
 ```rust
 d='JC5wcmludCgiZD0nIitkKyInOyIrJC5iNjRkZWNvZGUoZCkp';$.print("d='"+d+"';"+$.b64decode(d))
 ```
-File name: `deltara3/quiine-deltara3-gh-2.spwn`
+File name: `deltara3/quine-deltara3-gh-2.spwn`
 ```rust
 x=';$.print("x={}{}".fmt([$.display(x), x]))';$.print("x={}{}".fmt([$.display(x), x]))
+```
+File name: `deltara3/quine-deltara3-gh-3.spwn`
+```rust
+x='$.print("x=",$.display(x),";",x)';$.print("x=",$.display(x),";",x)
 ```
 
 By [sertdfyguhi](https://github.com/sertdfyguhi):
