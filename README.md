@@ -40,6 +40,11 @@ File name: `sertdfyguhi/quine-sertdfyguhi-gh-4.spwn`
 x=';$.print("x={}{}".fmt([$.display(x),x]))';$.print("x={}{}".fmt([$.display(x),x]))
 ```
 
+File name: `sertdfyguhi/quine-sertdfyguhi-gh-5.spwn`
+```rust
+x=[';$.print("".join(["x=",x,x[0]]))'];$.print("".join(["x=",x,x[0]]))
+```
+
 By [camila314](https://github.com/camila314):
 
 File name: `quine-camila314-gh.spwn`
