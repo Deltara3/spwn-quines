@@ -7,10 +7,12 @@ File name: `deltara3/quine-deltara3-gh-1.spwn`
 ```rust
 d='JC5wcmludCgiZD0nIitkKyInOyIrJC5iNjRkZWNvZGUoZCkp';$.print("d='"+d+"';"+$.b64decode(d))
 ```
+
 File name: `deltara3/quine-deltara3-gh-2.spwn`
 ```rust
 x=';$.print("x={}{}".fmt([$.display(x), x]))';$.print("x={}{}".fmt([$.display(x), x]))
 ```
+
 File name: `deltara3/quine-deltara3-gh-3.spwn`
 ```rust
 x='$.print("x=",$.display(x),";",x)';$.print("x=",$.display(x),";",x)
@@ -31,6 +33,11 @@ x='JC5wcmludCgieD0ne30nO3t9Ii5mbXQoW3gsJC5iNjRkZWNvZGUoeCldKSk';$.print("x='{}';
 File name: `sertdfyguhi/quine-sertdfyguhi-gh-3.spwn`
 ```rust
 x=[';$.print("x=",x,x[0])'];$.print("x=",x,x[0])
+```
+
+File name: `sertdfyguhi/quine-sertdfyguhi-gh-4.spwn`
+```rust
+x=';$.print("x={}{}".fmt([$.display(x),x]))';$.print("x={}{}".fmt([$.display(x),x]))
 ```
 
 By [camila314](https://github.com/camila314):
