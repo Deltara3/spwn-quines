@@ -1,0 +1,1 @@
+x=';$.print("x={}{}".fmt([$.display(x),x]))';$.print("x={}{}".fmt([$.display(x),x]))

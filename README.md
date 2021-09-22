@@ -7,10 +7,12 @@ File name: `deltara3/quine-deltara3-gh-1.spwn`
 ```rust
 d='JC5wcmludCgiZD0nIitkKyInOyIrJC5iNjRkZWNvZGUoZCkp';$.print("d='"+d+"';"+$.b64decode(d))
 ```
+
 File name: `deltara3/quine-deltara3-gh-2.spwn`
 ```rust
 x=';$.print("x={}{}".fmt([$.display(x), x]))';$.print("x={}{}".fmt([$.display(x), x]))
 ```
+
 File name: `deltara3/quine-deltara3-gh-3.spwn`
 ```rust
 x='$.print("x=",$.display(x),";",x)';$.print("x=",$.display(x),";",x)
@@ -33,6 +35,16 @@ File name: `sertdfyguhi/quine-sertdfyguhi-gh-3.spwn`
 x=[';$.print("x=",x,x[0])'];$.print("x=",x,x[0])
 ```
 
+File name: `sertdfyguhi/quine-sertdfyguhi-gh-4.spwn`
+```rust
+x=';$.print("x={}{}".fmt([$.display(x),x]))';$.print("x={}{}".fmt([$.display(x),x]))
+```
+
+File name: `sertdfyguhi/quine-sertdfyguhi-gh-5.spwn`
+```rust
+x=[';$.print("".join(["x=",x,x[0]]))'];$.print("".join(["x=",x,x[0]]))
+```
+
 By [camila314](https://github.com/camila314):
 
 File name: `quine-camila314-gh.spwn`
@@ -52,7 +64,7 @@ c=()=>'{};$.print("c=()=>"+c().fmt($.display(c())))';$.print("c=()=>"+c().fmt($.
 y=[(y)=>$.print(y,$.display(y),")")];y[0]('y=[(y)=>$.print(y,$.display(y),")")];y[0](')
 (isCool,isFriendly,isSmart){$.print("("+",".join(isCool)+"){"+isFriendly+isSmart+isCool as@string+"".join([isFriendly,isSmart].map(v=>","+$.display(v)))+")")}(['isCool','isFriendly','isSmart'],'$.print','("("+",".join(isCool)+"){"+isFriendly+isSmart+isCool as@string+"".join([isFriendly,isSmart].map(v=>","+$.display(v)))+")")}(')
 o={k: ';$.print("o=",o,o.k)'};$.print("o=",o,o.k)
-h=['h=',';$.print(h[0],h,h[2])'];$.print(h[0],h,h[1])
+h=['h=',';$.print(h[0],h,h[1])'];$.print(h[0],h,h[1])
 ```
 
 By [typicaldev1](https://github.com/typicaldev1):
