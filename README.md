@@ -52,7 +52,7 @@ c=()=>'{};$.print("c=()=>"+c().fmt($.display(c())))';$.print("c=()=>"+c().fmt($.
 y=[(y)=>$.print(y,$.display(y),")")];y[0]('y=[(y)=>$.print(y,$.display(y),")")];y[0](')
 (isCool,isFriendly,isSmart){$.print("("+",".join(isCool)+"){"+isFriendly+isSmart+isCool as@string+"".join([isFriendly,isSmart].map(v=>","+$.display(v)))+")")}(['isCool','isFriendly','isSmart'],'$.print','("("+",".join(isCool)+"){"+isFriendly+isSmart+isCool as@string+"".join([isFriendly,isSmart].map(v=>","+$.display(v)))+")")}(')
 o={k: ';$.print("o=",o,o.k)'};$.print("o=",o,o.k)
-h=['h=',';$.print(h[0],h,h[2])'];$.print(h[0],h,h[1])
+h=['h=',';$.print(h[0],h,h[1])'];$.print(h[0],h,h[1])
 ```
 
 By [typicaldev1](https://github.com/typicaldev1):
