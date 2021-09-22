@@ -1,4 +1,5 @@
 # Leaderboards
+
 Uses the creators's shortest quine.
 | Place | Creator     | Count |
 | ----- | ----------- | ----- |
